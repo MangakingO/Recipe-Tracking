@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
+
+.App {
+  padding: 1em;
+}
+
+header {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 64px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+thead th {
+  font-family: 'Rock Salt';
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+td {
+  letter-spacing: 1px;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff0c7;
+}
+
+tr.tuna-poke {
+  background-color: #fff0c7;
+}
+
+tr.guacamole {
+  background-color: white;
+}
+
+tr.create-recipe(odd) {
+  background-color: #fff0c7;
+}
+
+.content_td p {
+  max-width: 100%;
+  max-height: 100px;
+  overflow-y: auto;
+  text-overflow: ellipsis;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: scale-down;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+.recipe-create {
+  background-color: #fff0c7;
+  padding: 10px;
+}
+
+.create-input-container {
+  display: flex;
+}
+
+.create-input-container input,
+.create-input-container textarea {
+  flex: 1;
+  margin-right: 10px;
+}
+
+tr.header-row {
+  background-color: white;
+}
